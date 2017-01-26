@@ -1,7 +1,7 @@
 <div class="container">
 
   <br>
-  
+
   <div class="row">
     <div class="text-center">
     <!-- Button trigger modal -->
@@ -18,7 +18,7 @@
   </div>
 
   <!-- Modal -->
-  <%= form_for(@post) do |f| %>
+  <%= form_for(@post, remote: true) do |f| %>
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
