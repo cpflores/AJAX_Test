@@ -1,3 +1,3 @@
 # AJAX test
 
-This is a test of AJAX in a Rails application. 
+This is a test of AJAX in a Ruby on Rails application. 
